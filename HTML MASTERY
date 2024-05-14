@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML MASTERY</title>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+
+    .navbar a:hover {
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    .navbar .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .navbar .menu {
+      display: flex;
+    }
+
+    .navbar .menu a {
+      margin-left: 20px;
+    }
+
+    .title-container {
+      text-align: center;
+      flex: 1;
+      padding: 20px;
+    }
+
+    .content {
+      padding: 20px;
+      margin-left: 250px; /* Ensure content doesn't overlap with sidebar */
+    }
+
+    .sidebar {
+      background-color: #f4f4f4;
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      top: 80px; 
+      left: -250px;
+      transition: left 0.3s ease;
+    }
+
+    .sidebar.active {
+      left: 0;
+    }
+
+    .hamburger {
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      cursor: pointer;
+      z-index: 999;
+    }
+
+    .hamburger div {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">HTML MASTERY</div>
+    <div class="menu">
+      <!-- Navigation links -->
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+        <!-- Here you can add your <a> element -->
+        <a href="https://Research Project">Project</a>
+    </div>
+</div>
+    </div>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar content goes here -->
+    <h2>Sidebar</h2>
+    <ul>
+      <li><a href="#html_basics">HTML Basics</a></li>
+      <li><a href="#html_elements">HTML Elements</a></li>
+      <li><a href="#html_attributes">HTML Attributes</a></li>
+      <li><a href="#html_headings">HTML Headings</a></li>
+      <li><a href="#html_paragraphs">HTML Paragraphs</a></li>
+      <li><a href="#html_styles">HTML Styles</a></li>
+      <li><a href="#html_formatting">HTML Formatting</a></li>
+      <li><a href="#html_quotation">HTML Quotation</a></li>
+      <li><a href="#html_comments">HTML Comments</a></li>
+      <li><a href="#html_colors">HTML Colors</a></li>
+      <li><a href="#html_css">HTML CSS</a></li>
+      <li><a href="#html_links">HTML Links</a></li>
+      <li><a href="#html_images">HTML Images</a></li>
+      <li><a href="#html_tables">HTML Tables</a></li>
+      <li><a href="#html_lists">HTML Lists</a></li>
+      <li><a href="#html_blocks">HTML Blocks</a></li>
+      <li><a href="#html_classes">HTML Classes</a></li>
+      <li><a href="#html_iframes">HTML Iframes</a></li>
+      <li><a href="#html_symbols">HTML Symbols</a></li>
+      <li><a href="#html_charset">HTML Charset</a></li>
+      <li><a href="#html_url_encode">HTML URL Encode</a></li>
+      <li><a href="#html_xhtml">HTML XHTML</a></li>
+    </ul>
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="title-container">
+    <div class="w3-container w3-teal">
+      <h1>HTML Tutorial</h1>
+    </div>
+
+    <!-- Introductory text -->
+    <div class="w3-panel w3-info intro content">
+      <h2>What is HTML?</h2>
+      <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of the web page by using a set of tags and attributes. HTML documents are interpreted by web browsers to render the visual elements of a web page.</p>
+      <p>With HTML, you can create your own websites, format text, add images, create hyperlinks, and much more. It is the foundation of the World Wide Web and is essential for anyone interested in web development.</p>
+      <p>Learning HTML is easy and enjoyable, and it's the first step towards becoming a web developer!</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-margin-top content">
+    <div class="w3-col l2 m12" id="main">
+      <!-- Main content goes here -->
+      <h2 id="html_basics">HTML Basics</h2>
+      <p>This section covers the fundamentals of HTML, including the structure of an HTML document, HTML tags, attributes, and common usage.</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;This is a Heading&lt;/h1&gt;
+  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+      <h2 id="html_elements">HTML Elements</h2>
+      <p>This section covers various HTML element
+You sent
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML MASTERY</title>
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+
+    .navbar a:hover {
+      background-color: #fafafa;
+      color: #333;
+    }
+
+    .navbar .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .navbar .menu {
+      display: flex;
+    }
+
+    .navbar .menu a {
+      margin-left: 20px;
+    }
+
+    .title-container {
+      text-align: center;
+      flex: 1;
+      padding: 20px;
+    }
+
+    .content {
+      padding: 20px;
+      margin-left: 250px; /* Ensure content doesn't overlap with sidebar */
+    }
+
+    .sidebar {
+      background-color: #f4f4f4;
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      top: 80px; 
+      left: -250px;
+      transition: left 0.3s ease;
+    }
+
+    .sidebar.active {
+      left: 0;
+    }
+
+    .hamburger {
+      position: fixed;
+      left: 10px;
+      top: 10px;
+      cursor: pointer;
+      z-index: 999;
+    }
+
+    .hamburger div {
+      width: 30px;
+      height: 4px;
+      background-color: black;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">HTML MASTERY</div>
+    <div class="menu">
+      <!-- Navigation links -->
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar content goes here -->
+    <h2>Sidebar</h2>
+    <ul>
+      <li><a href="#html_basics">HTML Basics</a></li>
+      <li><a href="#html_elements">HTML Elements</a></li>
+      <li><a href="#html_attributes">HTML Attributes</a></li>
+      <li><a href="#html_headings">HTML Headings</a></li>
+      <li><a href="#html_paragraphs">HTML Paragraphs</a></li>
+      <li><a href="#html_styles">HTML Styles</a></li>
+      <li><a href="#html_formatting">HTML Formatting</a></li>
+      <li><a href="#html_quotation">HTML Quotation</a></li>
+      <li><a href="#html_comments">HTML Comments</a></li>
+      <li><a href="#html_colors">HTML Colors</a></li>
+      <li><a href="#html_css">HTML CSS</a></li>
+      <li><a href="#html_links">HTML Links</a></li>
+      <li><a href="#html_images">HTML Images</a></li>
+      <li><a href="#html_tables">HTML Tables</a></li>
+      <li><a href="#html_lists">HTML Lists</a></li>
+      <li><a href="#html_blocks">HTML Blocks</a></li>
+      <li><a href="#html_classes">HTML Classes</a></li>
+      <li><a href="#html_iframes">HTML Iframes</a></li>
+      <li><a href="#html_symbols">HTML Symbols</a></li>
+      <li><a href="#html_charset">HTML Charset</a></li>
+      <li><a href="#html_url_encode">HTML URL Encode</a></li>
+      <li><a href="#html_xhtml">HTML XHTML</a></li>
+    </ul>
+  </div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="title-container">
+    <div class="w3-container w3-teal">
+      <h1>HTML Tutorial</h1>
+    </div>
+
+    <!-- Introductory text -->
+    <div class="w3-panel w3-info intro content">
+      <h2>What is HTML?</h2>
+      <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It provides the structure and content of the web page by using a set of tags and attributes. HTML documents are interpreted by web browsers to render the visual elements of a web page.</p>
+      <p>With HTML, you can create your own websites, format text, add images, create hyperlinks, and much more. It is the foundation of the World Wide Web and is essential for anyone interested in web development.</p>
+      <p>Learning HTML is easy and enjoyable, and it's the first step towards becoming a web developer!</p>
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-margin-top content">
+    <div class="w3-col l2 m12" id="main">
+      <!-- Main content goes here -->
+      <h2 id="html_basics">HTML Basics</h2>
+      <p>This section covers the fundamentals of HTML, including the structure of an HTML document, HTML tags, attributes, and common usage.</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;This is a Heading&lt;/h1&gt;
+  &lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+      <h2 id="html_elements">HTML Elements</h2>
+      <p>This section covers various HTML elements, such as headings, paragraphs, links, images, lists, tables, forms, and more. It also explains how to use these elements iIt also explains how to use these elements in your HTML documents.</p>
+      <pre><code>&lt;h1&gt;This is a Heading&lt;/h1&gt;
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;a href="https://www.example.com"&gt;This is a link&lt;/a&gt;
+&lt;img src="image.jpg" alt="Description"&gt;
+</code></pre>
+<h2 id="html_attributes">HTML Attributes</h2>
+<p>This section explains various attributes that can be used with HTML elements to provide additional information or control their behavior.</p>
+<pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+&lt;img src="image.jpg" alt="Description" width="300" height="200"&gt;
+</code></pre>
+<h2 id="html_headings">HTML Headings</h2>
+<p>This section covers the use of headings in HTML, including the six levels of headings available and how to use them effectively.</p>
+<pre><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3</pre></code>
+<h2 id="html_paragraphs">HTML Paragraphs</h2>
+<p>This section explains how to create paragraphs in HTML and how to style them using CSS.</p>
+<pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;
+&lt;p&gt;This is another paragraph.&lt;/p&gt;
+</code></pre>
+<h2 id="html_styles">HTML Styles</h2>
+<p>This section covers how to use CSS (Cascading Style Sheets) to style HTML documents, including how to apply styles to specific elements, classes, and IDs.</p>
+<pre><code>&lt;style&gt;
+  p {
+    color: blue;
+  }
+&lt;/style&gt;
+
+&lt;p&gt;This paragraph will be blue.&lt;/p&gt;
+</code></pre>
+
+<h2 id="html_formatting">HTML Formatting</h2>
+<p>This section covers how to format text in HTML, including how to use various tags to control font, color, size, and other text properties.</p>
+<pre><code>&lt;b&gt;Bold text&lt;/b&gt;
+&lt;i&gt;Italic text&lt;/i&gt;
+&lt;u&gt;Underlined text&lt;/u&gt;
+&lt;small&gt;Small text&lt;/small&gt;
+&lt;br&gt; <!-- Line break -->
+&lt;strong&gt;Strong text&lt;/strong&gt;
+&lt;em&gt;Emphasized text&lt;/em&gt;
+</code></pre>
+<h2 id="html_quotation">HTML Quotation</h2>
+<p>This section explains how to quote text in HTML, including how to use blockquotes, quotes, and other quotation elements.</p>
+<pre><code>&lt;blockquote&gt;
+  This is a blockquote. It is used for longer quotes that stand alone.
+&lt;/blockquote&gt;
+&lt;q&gt;This is an inline quote.&lt;/q&gt;
+</code></pre>
+<h2 id="html_comments">HTML Comments</h2>
+<p>This section covers how to add comments to HTML documents, which can be useful for documentation and debugging.</p>
+<pre><code>&lt;!-- This is a comment --&gt;</code></pre>
+<h2 id="html_colors">HTML Colors</h2>
+<p>This section explains how to use colors in HTML, including how to specify colors using various color models and formats.</p>
+<pre><code>&lt;p style="color: red;"&gt;This is a red paragraph.&lt;/p&gt;
+&lt;p style="color: #00FF00;"&gt;This is a green paragraph.&lt;/p&gt;
+&lt;p style="color: rgb(0, 0, 255);"&gt;This is a blue paragraph.&lt;/p&gt;
+</code></pre>
+<h2 id="html_css">HTML CSS</h2>
+<p>This section covers how to apply CSS styles to HTML documents, including how to use external style sheets, internal styles, and inline styles.</p>
+<pre><code>&lt;!-- External Style Sheet --&gt;
+&lt;link rel="stylesheet" href="styles.css"&gt;
+
+&lt;!-- Internal Style Sheet --&gt;
+&lt;style&gt;
+  body {
+    font-family: Arial, sans-serif;
+  }
+&lt;/style&gt;
+
+&lt;!-- Inline Style --&gt;
+&lt;p style="color: red;"&gt;This is an inline styled paragraph.&lt;/p&gt;
+</code></pre>
+<h2 id="html_links">HTML Links</h2>
+<p>This section explains how to create links in HTML, including how to use various attributes to control the behavior of links.</p>
+<pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+&lt;a href="mailto:someone@example.com"&gt;Send Email&lt;/a&gt;
+&lt;a href="#html_basics"&gt;Go to HTML Basics&lt;/a&gt;
+</code></pre>
+<h2 id="html_images">HTML Images</h2>
+<p>This section covers how to embed images in HTML documents, including how to use the <img> tag and its attributes to control the display of images.</p>
+<pre><code>&lt;img src="image.jpg" alt="Description"&gt;
+&lt;img src="image.jpg" alt="Description" width="300" height="200"&gt;
+</code></pre>
+<h2 id="html_tables">HTML Tables</h2>
+<p>This section explains how to create tables in HTML, including how to use various table elements and attributes to structure and style tabular data.</p>
+<pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Header 1&lt;/th&gt;
+    &lt;th&gt;Header 2&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Data 1&lt;/td&gt;
+    &lt;td&gt;Data 2&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+</code></pre>
+
+<h2 id="html_lists">HTML Lists</h2>
+<p>This section covers how to create lists in HTML, including how to use various tags to control the type, style, and layout of lists.</p>
+<pre><code>&lt;!-- Unordered List --&gt;
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Ordered List --&gt;
+&lt;ol&gt;
+  &lt;li&gt;First item&lt;/li&gt;
+  &lt;li&gt;Second item&l
+Example Domain
+You sent
+&lt;/ol&gt;
+</code></pre>
+
+
+
+      <!-- Add other sections here -->
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 HTML Mastery</p>
+  </footer>
+
+  <script>
+    const sidebar = document.getElementById('sidebar');
+    const hamburger = document.getElementById('hamburger');
+
+    hamburger.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
+
